@@ -1,0 +1,184 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c1317;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.green {
+  height: 23%;
+  background-color: #00a884;
+}
+
+.white {
+  height: 75%;
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .white {
+    height: 75%;
+    background-color: #0c1317
+  }
+}
+
+.wl{
+  position: absolute;
+  left: 23%;
+  top: 1.35%;
+  width: 2.75%;
+}
+
+.wl2{
+  position: absolute;
+  left: 26%;
+  top: 1.75%;
+  font-size: 14px;
+  color: white;
+}
+
+.content {
+  width: 55%;
+  height: 85%;
+  margin: auto;
+  border-radius: 0.2%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  color: #41525d;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.p1 {
+  position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.p2 {
+  position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.p2_1 {
+  position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.p3 {
+  position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.p4 {
+  position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.p4_1 {
+  position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.QR{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 27%;
+}
+
+.divtlf{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.nºtlf{
+  text-decoration: none;
+  color: #128c7e;
+  font-size: 15px;
+}
+
+.tutorial{
+  position: absolute;
+  top: 50%;
+}
+
+.tutorialtxt{
+  color: black;
+  font-size: 25px;
+}
+
+.ayuda{
+  position: absolute;
+  top: 60%;
+  font-size: 13px;
+}
+
+.ayudatxt{
+  text-decoration: none;
+  color: #128c7e;
+}
+
+.helpvideo{
+  width: 45%;
+  position: absolute;
+  top: 65%;
+}
+
+.black{
+  position: absolute;
+  background-color: white;
+  border-radius: 5%;
+  top: 52.5%;
+  height: 0.25%;
+  width: 80%;
+}
+
+.menu{
+  position: absolute;
+  width: 2.5%;
+  top: 21.50%;
+  left: 20%;
+}
+
+.ajustes{
+  position: absolute;
+  width: 2.5%;
+  top: 21.50%;
+  left: 35%;
+}
